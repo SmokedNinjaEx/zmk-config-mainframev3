@@ -1,1 +1,5 @@
+config SHIELD_MAINFRAMEV3_LEFT
+    def_bool $(shields_list_contains,MainframeV3_left)
 
+config SHIELD_MAINFRAMEV3_RIGHT
+    def_bool $(shields_list_contains,MainframeV3_right)
