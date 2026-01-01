@@ -1,0 +1,11 @@
+file_format: "1"
+id: mainframev3
+name: MainframeV3
+type: shield
+url: https://github.com/SmokedNinjaEx/zmk-config-mainframev3
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - MainframeV3_left
+  - MainframeV3_right
