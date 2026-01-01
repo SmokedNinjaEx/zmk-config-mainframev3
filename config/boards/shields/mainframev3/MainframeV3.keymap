@@ -26,7 +26,7 @@
       &kp TAB    &kp Q      &kp W    &kp E     &kp R       &kp T                    &kp Y      &kp U      &kp I      &kp O    &kp P     &kp RBKT
       &kp CAPS   &kp A      &kp S    &kp D     &kp F       &kp G                    &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp LBKT
       &kp LSHFT  &kp Z      &kp X    &kp C     &kp V       &kp B                    &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                 &kp LCTRL  &kp LGUI &kp LALT  &lthp RGUI  &kp SPACE                &kp SPACE  &kp ENTER  &kp BSPC   &kp DEL  &kp ESC
+                 &kp LCTRL  &kp LGUI &kp LALT  &lthp 1 RGUI  &kp SPACE                &kp SPACE  &kp ENTER  &kp BSPC   &kp DEL  &kp ESC
             >;
         };
 
@@ -36,7 +36,7 @@
       &bt BT_CLR    &kp F1      &kp F2      &kp F3  &kp F4  &kp F5                  &kp F6     &kp F7     &kp F8    &kp F9     &kp F10  &kp F11
       &bt BT_SEL 0  &none       &none       &none   &none   &none                   &kp MINUS  &kp EQUAL  &kp UP    &none      &none    &none
       &bt BT_SEL 1  &none       &none       &none   &none   &none                   &none      &kp LEFT   &kp DOWN  &kp RIGHT  &none    &none
-      &none         &none       &none       &none   &none   &none                   &none      &none      &none     &none      &none    &none
+      &out OUT_TOG  &none       &none       &none   &none   &none                   &none      &none      &none     &none      &none    &none
                     &bt BT_NXT  &bt BT_PRV  &none   &trans  &trans                  &trans     &trans     &trans    &trans     &trans
             >;
         };
