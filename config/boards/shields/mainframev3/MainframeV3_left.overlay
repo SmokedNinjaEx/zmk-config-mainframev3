@@ -5,8 +5,8 @@
 
     // top to bottom
     row-gpios
-        = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 0 (NUM)
-        , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 1 (UPPER)
+        = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 0 (NUM)
+        , <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 1 (UPPER)
         , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 2 (HOME)
         , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 3 (LOWER)
         , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 4 (THUMB + ROT)
